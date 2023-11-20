@@ -1,0 +1,26 @@
+// hérna á að import öll hinn scss skjölin sem við gerum. Einnig þurf þau að vera
+// í réttri röð svo þau raðist rétt.
+
+@import './stillingar.scss';
+
+@import './Alment.scss';
+
+@import './Takkar.scss';
+
+@import './haus.scss';
+
+@import './index.scss';
+
+@import './navigation.scss';
+
+@import './main.scss';
+
+@import './fotur.scss';
+
+@import './box.scss';
+
+@import './pontunarform.scss';
+
+@import './vorulisti.scss';
+
+@import './voru-sida.scss';

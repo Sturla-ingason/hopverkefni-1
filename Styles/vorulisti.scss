@@ -1,0 +1,53 @@
+.header-vorulisti{
+    font-size: 60px;
+}
+
+.voru-filter{
+    display: inline-block;
+    list-style-type: none;
+    align-self: flex-start;
+    padding-left: 1rem;
+}
+
+.filter-box{
+    display: inline-block;
+    align-items: left;
+
+    padding: calc(var(--spacing) / 2) calc(var(--spacing));
+
+    border: 1px solid black;
+    border-radius: 5px;
+
+    background-color: #E1CEC2;
+}
+
+.title{
+    text-align: left;
+}
+
+.content{
+    text-align: left;
+}
+
+.tag{
+    border: 1px solid black;
+    border-radius: 5px;
+
+    display: inline-block;
+
+    padding: 5px;
+
+    background-color: #E1CEC2;
+
+    margin-right: 5px;
+}
+
+.filter{
+    grid-column-start: 1;
+    grid-column-end: 12;
+}
+
+.filter-grid{
+    justify-self: flex-start;
+    padding-bottom: 2rem;
+}

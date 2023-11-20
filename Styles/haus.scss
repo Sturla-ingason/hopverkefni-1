@@ -1,0 +1,69 @@
+/* Layout */
+
+.wrapper {
+display: grid;
+grid-template-rows: auto;
+grid-template-columns: 12fr;
+
+/* grid items eru miðjuð */
+justify-items: center;
+
+}
+
+/** Haus **/
+.header {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: var(--spacing);
+
+width: 100%;
+background-image: url('myndir/headerMynd.jpg');
+background-position: center;
+background-size: cover; 
+
+margin-bottom: 2rem;
+}
+
+
+.header header {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+max-width: var(--width-offset);
+
+padding-top: 2.5rem;
+padding-bottom: 2.5rem;
+
+text-align: center;
+}
+
+.headerpöntun{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing);
+    
+    width: 100%;
+    
+    margin-bottom: 2rem;
+}
+
+.headerpöntun header {
+    display: flex;
+    flex-direction: column;
+    
+    max-width: var(--width-offset);
+    
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+
+    align-self: flex-start;
+    padding-left: 1rem;
+}
+
+.texti{
+    align-self: flex-start;
+    padding-left: 1rem;
+}
